@@ -32,7 +32,7 @@ def J(theta0, theta1, data):
 def regression(data):
 	#for plotting error vs training epoch
 	#count = 0
-	alpha = 0.01
+	alpha = 0.07
 	m, n = (data.shape)[0], (data.shape)[1]
 	theta0, theta1 = 0.0, 0.0
 	j = J(theta0, theta1, data)
